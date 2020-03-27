@@ -21,7 +21,7 @@ module: UploadModule
 | `[limit]`           | 限制单次最多上传数量，nzMultiple 打开时有效；0 表示不限                          | `number`                                                                      | `9`                                          |
 | `[size]`            | 限制文件大小，单位：KB；0 表示不限                                               | `number`                                                                      | `0`                                          |
 | `[fileType]`        | 限制文件类型                                                                     | `string`                                                                      | `'image/png,image/jpeg,image/gif,image/bmp'` |
-| `[listType]`        | 上传列表的内建样式，支持三种基本样式                                             | `'text' | 'picture' | 'picture-card' = 'picture-card'`                        | `'picture-card'`                             |
+| `[listType]`        | 上传列表的内建样式，支持三种基本样式                                             | `'text' | 'picture' | 'picture-card'`                        | `'picture-card'`                             |
 | `[multiple]`        | 是否支持多选文件，ie10+ 支持                                                     | `boolean`                                                                     | `true`                                       |
 | `[showButton]`      | 是否展示上传按钮                                                                 | `boolean`                                                                     | `true`                                       |
 | `[placeholder]`     | 占位提示语                                                                       | `string`                                                                      | `'上传'`                                     |
